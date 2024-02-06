@@ -16,7 +16,10 @@ int main(){
 		g = 'b';
 	else if (m >= 75 && m <= 100)
 		g = 'a';
-	
+	if(m >= 0 && m <= 100)
+	    cout<<"Your grade is "<<g;
+	else 
+		cout<<"cute";   
 	
 	
 	return 0;
